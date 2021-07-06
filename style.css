@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 .flexible-container{
     display: flex;
@@ -69,7 +70,8 @@ a:hover{
 .middle-banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    background-size: 1920px;
+    background-size: cover;
+    background-position: center;
 }
 .person{
     width: 23%;
@@ -97,6 +99,11 @@ a:hover{
 }
 .counter{
     padding:2% 13%;
+}
+.counter h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
 footer{
     text-align: center;
