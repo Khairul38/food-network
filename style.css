@@ -110,3 +110,17 @@ footer{
     background:black;
     padding: 3%;
 }
+.subscribe{
+    background-color: rgb(245, 209, 197);
+    height: 400px;
+    width: 80%;
+    margin: 10%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
